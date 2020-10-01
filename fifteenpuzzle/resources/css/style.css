@@ -1,0 +1,55 @@
+html {
+    color: #66FCF1;
+    font-family: garamond;
+    font-size: 36px;
+}
+
+body {
+    margin: 0;
+    background-color: #1F2833;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: garamond;
+    margin-bottom: 50px;
+}
+
+.instructions {
+    margin-bottom: 50px;
+}
+
+.shuffle {
+    width: 200px;
+    height: 50px;
+    border: solid #C5C6C7 2px;
+    background-color: #66FCF1;
+    margin-bottom: 50px;
+}
+
+.shuffle h3 {
+    font-size: .5rem;
+    line-height: 100%;/*tried to center text in button but nothing centered it. This was the closest I got"*/
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.tile {
+    box-sizing: border-box;
+    background-color: #45A29E;
+    width: 25%;
+    height: 25%;
+    border: ridge #66FCF1 5px;
+    border-radius: 5px;
+}
+
